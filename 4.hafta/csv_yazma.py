@@ -1,7 +1,7 @@
 import csv
 
 baslik=["sicaklik", "nem", "basinc"]
-
+print(type(baslik))
 veri=[[30,75.5,10],[32.3, 50, 3]]
 
 with open('sensor_veri.csv',
